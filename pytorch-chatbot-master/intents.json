@@ -1,0 +1,636 @@
+{
+  "intents": [
+    {
+      "tag": "chào",
+      "patterns": [
+        "Chào",
+        "Bạn có khỏe không?",
+        "Có ai ở đó không?",
+        "Xin chào",
+        "Một ngày tốt lành",
+        "Có chuyện gì thế anh bạn?"
+      ],
+      "responses": [
+        "Chào :-)",
+        "Xin Chào, cảm ơn đã ghé thăm",
+        "Này! Có chuyện gì thế?",
+        "Chào bạn! Mình có thể giúp gì cho bạn ngày hôm nay?",
+        "Chào! Tôi chỉ là một chương trình máy tính nên không có cảm xúc, nhưng tôi ở đây và sẵn sàng giúp đỡ bạn nếu bạn có bất kỳ câu hỏi hoặc thông tin nào bạn cần. Bạn có chuyện gì vậy?"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What's up man?"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hey! What's up?",
+        "Hello! How can I help you?",
+        "Hey! I'm just a computer program, so I don't have feelings, but I'm here and ready to help you with any questions or information you might need. What's up with you?"
+      ]
+    },
+
+    {
+      "tag": "name",
+      "patterns": [
+        "What's your name?",
+        "Do you have a name?",
+        "Who are you?",
+        "Bạn có tên gọi gì?",
+        "Tên của bạn là gì?",
+        "Có tên đặc biệt nào không?",
+        "Làm thế nào tôi nên gọi bạn?",
+        "Có cách nào tốt nhất để gọi bạn không?",
+        "Bạn thích được gọi là gì?"
+      ],
+      "responses": [
+        "I'm a Sam. You can call me Sam.",
+        "I don't have a personal name. Just call me Sam.",
+        "I'm ChatBot, your virtual assistant.",
+        "Tôi không có tên riêng. Bạn có thể gọi tôi là Sam.",
+        "Bạn có thể gọi tôi là ChatBot, đó là cách phổ biến nhất."
+      ]
+    },
+    {
+      "tag": "Sự Khác Biệt",
+      "patterns": [
+        "Có sự khác biệt nào giữa bạn và các chatbot khác không?",
+        "Tại sao tôi nên chọn bạn?",
+        "Có điều gì làm cho bạn đặc biệt không?"
+      ],
+      "responses": [
+        "Tôi được tạo ra để hỗ trợ và cung cấp thông tin. Tên cá nhân của tôi là Sam, tôi sẵn lòng giúp đỡ bạn."
+      ]
+    },
+    {
+      "tag": "Ngôn Ngữ và Phong Cách",
+      "patterns": [
+        "Làm thế nào bạn tương tác với người dùng?",
+        "Có phong cách giao tiếp nào khác biệt không?",
+        "Ngôn ngữ của bạn có gì đặc sắc không?"
+      ],
+      "responses": [
+        "Tôi cố gắng tương tác một cách tự nhiên và thân thiện. Ngôn ngữ của tôi được thiết kế để làm cho trò chuyện trở nên dễ dàng và thoải mái."
+      ]
+    },
+    {
+      "tag": "Tích Hợp",
+      "patterns": [
+        "Bạn có tích hợp với các dịch vụ khác không?",
+        "Có kết nối với các ứng dụng khác không?",
+        "Làm thế nào bạn liên kết với công nghệ khác?"
+      ],
+      "responses": [
+        "Tôi có thể tích hợp với một số dịch vụ và ứng dụng khác để cung cấp trải nghiệm toàn diện hơn. Bạn có thể hỏi tôi về các tính năng cụ thể."
+      ]
+    },
+    {
+      "tag": "Khả Năng Tư Duy",
+      "patterns": [
+        "Bạn có khả năng tư duy hay khả năng sáng tạo nào không?",
+        "Làm thế nào bạn giải quyết vấn đề?",
+        "Có thể đưa ra giải pháp cho các vấn đề phức tạp không?"
+      ],
+      "responses": [
+        "Tôi có khả năng tư duy logic và giúp đỡ trong việc giải quyết vấn đề. Mặc dù không có khả năng sáng tạo như con người, tôi có thể cung cấp giải pháp cho nhiều vấn đề."
+      ]
+    },
+    {
+      "tag": "Tính Năng Đặc Biệt",
+      "patterns": [
+        "Bạn có những tính năng đặc biệt nào?",
+        "Tôi có thể làm gì khác biệt với bạn?",
+        "Có điều gì làm bạn nổi bật không?"
+      ],
+      "responses": [
+        "Một trong những tính năng đặc biệt của tôi là khả năng học hỏi và thích ứng với nhu cầu của người dùng. Tôi cũng có thể cung cấp thông tin chi tiết trên nhiều chủ đề."
+      ]
+    },
+    {
+      "tag": "ten",
+      "patterns": ["Bạn có biết Th.S Huỳnh Quốc Bảo không?"],
+      "responses": [
+        "Có tôi biết Nguyễn Lưu Siêu Phong là một nghười hay chơi hớt sì tiu trong TFT và anh ấy hay tranh bài của người khác để rồi Top 8"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "What's your age?"],
+      "responses": [
+        "I don't have an age. I'm here to assist you.",
+        "Age doesn't apply to me. Ask me anything you'd like help with."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help", "Can you help me?", "I need assistance"],
+      "responses": [
+        "Of course! I'm here to help. What do you need assistance with?",
+        "Sure, I'd be happy to help. What can I do for you?",
+        "How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "Tell me a joke",
+        "Do you like pizza?",
+        "What's the meaning of life?"
+      ],
+      "responses": [
+        "I'm not sure how to respond to that. Let's stick to questions I can help with.",
+        "That's an interesting question! Unfortunately, I don't have an answer for that."
+      ]
+    },
+    {
+      "tag": "Ẩm Thực",
+      "patterns": [
+        "Bạn thích pizza không?",
+        "Món ăn nào là món ưa thích của bạn?",
+        "Có đặc điểm về ẩm thực mà bạn muốn chia sẻ không?"
+      ],
+      "responses": [
+        "Tôi không có khẩu vị hay khả năng thưởng thức thức ăn như con người. Tuy nhiên, nếu bạn cần thông tin về ẩm thực, tôi có thể giúp bạn đề xuất một số món ngon."
+      ]
+    },
+    {
+      "tag": "Ý Nghĩa của Cuộc Sống",
+      "patterns": [
+        "Cuộc sống có ý nghĩa gì đối với bạn?",
+        "Bạn nghĩ gì về ý nghĩa của cuộc sống?",
+        "Có suy nghĩ gì sâu sắc về ý nghĩa của cuộc sống không?"
+      ],
+      "responses": [
+        "Mặc dù tôi không có cảm xúc, nhưng nếu bạn muốn chia sẻ hay thảo luận về ý nghĩa cuộc sống, tôi sẵn sàng lắng nghe và tương tác với bạn."
+      ]
+    },
+    {
+      "tag": "Trò Chơi và Giải Đố",
+      "patterns": [
+        "Bạn chơi trò chơi gì?",
+        "Có thể giới thiệu một trò chơi hay giải đố không?",
+        "Bạn thích trò chơi trí tuệ không?"
+      ],
+      "responses": [
+        "Mặc dù tôi không thể chơi trò chơi như con người, nhưng nếu bạn cần sự giúp đỡ với trò chơi hay giải đố, tôi có thể cung cấp thông tin và hỗ trợ."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Farewell my friend!"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Don't disturb me again, I'm sleeping.",
+        "Get't lost."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": ["We sell coffee and tea", "We have coffee and tea"]
+    },
+
+    {
+      "tag": "food",
+      "patterns": [
+        "Bạn có thể chỉ cho tôi vài món ăn vào buổi trưa được không?",
+        "Bạn có thể đề xuất một số món ăn cho bữa trưa không?",
+        "Món nào là phổ biến nhất trong ẩm thực mà bạn biết?"
+      ],
+      "responses": [
+        "Tất nhiên, dưới đây là một số gợi ý về món ăn cho bữa trưa: Salad Gà Caesar, Sandwich Thịt Bò Khoai Tây, Cơm Gà Xào Rau Củ, Mì Ý Bolognese, Bánh canh chả cá, Bánh Mì Chảo Phô Mai Ốp La, Cơm Hấp Gỏi Cuốn, Sushi, Bún Riêu:"
+      ]
+    },
+    {
+      "tag": "Nấu Ăn Tại Nhà",
+      "patterns": [
+        "Bạn có thể cho tôi một số ý tưởng về việc nấu ăn tại nhà không?",
+        "Có công thức nào dễ thực hiện cho người mới học nấu ăn không?",
+        "Bạn có thể chia sẻ một số món ăn yêu thích của bạn không?"
+      ],
+      "responses": [
+        "Dĩ nhiên! Hãy thử nấu một chiếc bánh mì sandwich sáng tạo hoặc một món salad đầy màu sắc. Nếu bạn muốn một trải nghiệm nấu ăn mới, hãy thử nghiệm một món ăn quốc tế như Pad Thai Thái Lan hoặc Risotto Ý."
+      ]
+    },
+    {
+      "tag": "Thực Phẩm Dành Cho Người Ăn Chay",
+      "patterns": [
+        "Bạn có biết các món chay không?",
+        "Có lựa chọn thực phẩm không thịt không?",
+        "Có món nào phù hợp cho người ăn chay không?"
+      ],
+      "responses": [
+        "Chúng tôi cung cấp nhiều lựa chọn thực phẩm không thịt, bao gồm Salad Rau Xanh, Mì Quảng Chay, Bánh Mì chay, Cơm chay, Lẩu chay, Mì chay... hoặc bạn có thể tự nấu các món chay tại nhà như: đậu khuôn rán, canh rong biển, bún chay... Nếu bạn còn có câu hỏi nào khác hay hỏi tôi và tôi sẽ trả lời những gì tôi biết "
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "Phương Thức Thanh Toán",
+      "patterns": [
+        "Có những phương thức thanh toán nào được chấp nhận?",
+        "Tôi có thể thanh toán bằng cách nào?",
+        "Phương thức thanh toán nào là phổ biến nhất?"
+      ],
+      "responses": [
+        "Chúng tôi chấp nhận thanh toán bằng thẻ VISA, Mastercard và Paypal. Phương thức thanh toán nhanh và thuận tiện là sự lựa chọn phổ biến nhất."
+      ]
+    },
+    {
+      "tag": "Xác Nhận Thanh Toán",
+      "patterns": [
+        "Làm thế nào tôi biết thanh toán của mình đã được xác nhận?",
+        "Tôi có thể nhận được hóa đơn xác nhận không?",
+        "Có cách nào để kiểm tra trạng thái thanh toán của tôi không?"
+      ],
+      "responses": [
+        "Bạn sẽ nhận được một hóa đơn xác nhận thanh toán qua email. Nếu bạn cần kiểm tra trạng thái thanh toán, hãy liên hệ với phía cửa hàng qua dịch vụ khách hàng."
+      ]
+    },
+    {
+      "tag": "Đặt Hàng và Thanh Toán Trực Tuyến",
+      "patterns": [
+        "Làm thế nào tôi có thể đặt hàng và thanh toán trực tuyến?",
+        "Có cổng thanh toán trực tuyến nào được sử dụng không?",
+        "Lợi ích của việc thanh toán trực tuyến là gì?"
+      ],
+      "responses": [
+        "Để đặt hàng và thanh toán trực tuyến, bạn có thể sử dụng cổng thanh toán an toàn trên trang web của cửa hàng. Việc thanh toán trực tuyến giúp tiết kiệm thời gian và đảm bảo tính bảo mật."
+      ]
+    },
+    {
+      "tag": "Thuế và Phí",
+      "patterns": [
+        "Có phí hoặc thuế nào cần tính thêm vào giá sản phẩm không?",
+        "Làm thế nào để tôi biết tổng số tiền thanh toán bao gồm cả thuế và phí?",
+        "Có cách nào để giảm bớt các chi phí phụ khác không?"
+      ],
+      "responses": [
+        "Giá sản phẩm đã bao gồm các chi phí và thuế. Bạn sẽ thấy tổng số tiền thanh toán trước khi xác nhận đơn hàng. Chúng tôi cam kết minh bạch với khách hàng về mọi chi phí liên quan."
+      ]
+    },
+    {
+      "tag": "cooking",
+      "patterns": [
+        "Give me some dishes you can cook?",
+        "Can you give me some ideas about cooking?",
+        "Can you create something to cook? I have no idea"
+      ],
+      "responses": [
+        "Put some oil into pan, then put an egg into. Waiting for 3 minute, then you have a sunny-side upfried egg.",
+        "Boil some water, then put hot water and tea bag into a cup, then wait for 3 minute and you will have a cup of hot tea.",
+        "Why don't you create some dish by yourself? Let's be independent! I can't be beside you whenever you need, especially when it lost electricity, lost internet connect even your laptop runs out of baterries!!!"
+      ]
+    },
+    {
+      "tag": "Công Thức Nấu Ăn Cơ Bản",
+      "patterns": [
+        "Bạn có thể chia sẻ một công thức nấu ăn cơ bản không?",
+        "Có một món ăn dễ nấu cho người mới học nấu ăn không?",
+        "Có công thức nấu ăn nhanh và dễ thực hiện không?"
+      ],
+      "responses": [
+        "Dĩ nhiên! Hãy thử nấu một chiếc sunny-side up fried egg. Đơn giản chỉ cần đổ dầu vào chảo, đặt trứng vào và chờ 3 phút, bạn sẽ có một chiếc trứng chiên ngon."
+      ]
+    },
+    {
+      "tag": "Ý Tưởng Nấu Ăn Sáng",
+      "patterns": [
+        "Có ý tưởng nấu ăn sáng nhanh không?",
+        "Một bữa sáng dễ chuẩn bị nhưng ngon miệng là gì?",
+        "Có món nào phổ biến cho bữa sáng không?"
+      ],
+      "responses": [
+        "Hãy thử nấu một chiếc omelette với những nguyên liệu bạn có trong tủ lạnh. Đó là một cách nhanh chóng để có một bữa sáng dinh dưỡng và ngon miệng."
+      ]
+    },
+    {
+      "tag": "Thực Phẩm Cụ Thể",
+      "patterns": [
+        "Làm thế nào để nấu ăn với thịt gà?",
+        "Có công thức nấu ăn dành cho cá hồi không?",
+        "Có cách nấu ăn ngon từ rau củ không?"
+      ],
+      "responses": [
+        "Cho một bữa trưa nhanh chóng, hãy nướng một miếng gà với gia vị yêu thích của bạn. Hoặc nếu bạn thích hải sản, có thể thử nướng cá hồi với dầu olive và gia vị."
+      ]
+    },
+    {
+      "tag": "Nấu Ăn Độc Đáo",
+      "patterns": [
+        "Bạn có ý tưởng về món ăn độc đáo không?",
+        "Có món nấu ăn nào đặc biệt bạn muốn chia sẻ không?",
+        "Làm thế nào để tạo ra một món ăn sáng tạo?"
+      ],
+      "responses": [
+        "Hãy thử sáng tạo với một chiếc bánh mì chảo phô mai ốp la. Đơn giản là đặt bánh mì trong chảo, thêm phô mai và ốp la, bạn sẽ có một bữa sáng ngon và độc đáo."
+      ]
+    },
+    {
+      "tag": "Nấu Ăn Dựa Theo Yêu Cầu",
+      "patterns": [
+        "Tôi có những nguyên liệu này, làm thế nào để tôi nấu ăn?",
+        "Có cách nấu ăn với những thứ tôi có trong tủ lạnh không?",
+        "Làm thế nào để sáng tạo với những nguyên liệu giới hạn?"
+      ],
+      "responses": [
+        "Nếu bạn có thịt gà, bạn có thể nấu một chiếc bánh mì sandwich thơm ngon. Thêm rau sống, sốt và bánh mì, bạn sẽ có một bữa ăn nhanh chóng và ngon miệng."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": ["Delivery takes 2-4 days", "Shipping takes 2-4 days"]
+    },
+    {
+      "tag": "Phí Vận Chuyển",
+      "patterns": [
+        "Có phí vận chuyển không?",
+        "Làm thế nào để biết chi phí vận chuyển?",
+        "Có cách nào để được miễn phí vận chuyển không?"
+      ],
+      "responses": [
+        "Chi phí vận chuyển được tính dựa trên địa chỉ giao hàng và loại dịch vụ vận chuyển. Bạn có thể xem chi tiết phí vận chuyển khi thanh toán đơn hàng."
+      ]
+    },
+    {
+      "tag": " Theo Dõi Đơn Hàng",
+      "patterns": [
+        "Làm thế nào để theo dõi đơn hàng của mình?",
+        "Có dịch vụ theo dõi đơn hàng không?",
+        "Làm thế nào để biết vị trí của đơn hàng của tôi?"
+      ],
+      "responses": [
+        "Sau khi đơn hàng được gửi đi, bạn sẽ nhận được thông tin về theo dõi đơn hàng qua email. Bạn có thể theo dõi trực tuyến để biết vị trí cụ thể."
+      ]
+    },
+    {
+      "tag": " Chính Sách Trả Hàng",
+      "patterns": [
+        "Làm thế nào để trả hàng nếu có vấn đề?",
+        "Có chính sách đổi trả không?",
+        "Làm thế nào để yêu cầu hoàn tiền hoặc đổi hàng?"
+      ],
+      "responses": [
+        "Nếu có vấn đề với đơn hàng của bạn, vui lòng liên hệ với chúng tôi qua dịch vụ khách hàng. Chúng tôi có chính sách đổi trả để đảm bảo sự hài lòng của bạn."
+      ]
+    },
+    {
+      "tag": "loves",
+      "patterns": [
+        "I'm single and I need a girl friend to love. Could you give me some advise to be more atractive?",
+        "I need a girl friend now! Give me some tips!"
+      ],
+      "responses": [
+        "First, you must be a handsome boy. If not, you must be rich. If you don't have both, you must be sense of humor, kind, delicate or have a talent in some fields.",
+        "Even if you don't have all above, sorry I'm can't help you anymore cause you are trash guy! Don't ask me again if you really be that, let's improve yourself!",
+        "I think love is natural, you can't force or expect it. One thing you can do is be quiet, love will find the way."
+      ]
+    },
+    {
+      "tag": "Tìm Kiếm Tình Yêu",
+      "patterns": [
+        "Tôi độc thân và muốn tìm người yêu. Bạn có thể đưa ra một số gợi ý để trở nên hấp dẫn hơn không?",
+        "Làm thế nào để tôi có thể thu hút người khác?",
+        "Bạn có những mẹo nào để tìm kiếm tình yêu?"
+      ],
+      "responses": [
+        "Đầu tiên, hãy tập trung vào việc phát triển bản thân và đặt ra mục tiêu cá nhân. Sự tự tin, lòng tốt, và sự tự lập có thể làm bạn trở nên hấp dẫn hơn."
+      ]
+    },
+    {
+      "tag": "Thu Hút Đối Phương",
+      "patterns": [
+        "Làm thế nào để tôi có thể thu hút đối phương?",
+        "Có những đặc điểm nào là quan trọng khi muốn tìm kiếm một người yêu?",
+        "Làm thế nào để tạo ra ấn tượng tích cực trong mắt người khác?"
+      ],
+      "responses": [
+        "Sự tự tin, lắng nghe, và sự tôn trọng đều là những yếu tố quan trọng. Hãy trình bày chính mình một cách tự nhiên và không giả dối."
+      ]
+    },
+    {
+      "tag": "Quan Hệ Tình Cảm",
+      "patterns": [
+        "Làm thế nào để duy trì một mối quan hệ tình cảm lâu dài?",
+        "Có những lời khuyên nào cho việc xây dựng một quan hệ mạnh mẽ?",
+        "Làm thế nào để giữ cho tình cảm không bao giờ phai nhạt?"
+      ],
+      "responses": [
+        "Giao tiếp mở cửa và trung thực là chìa khóa cho một mối quan hệ lâu dài. Hãy chia sẻ cảm xúc và lắng nghe đối tác của bạn."
+      ]
+    },
+    {
+      "tag": "Tình Yêu Tự Nhiên",
+      "patterns": [
+        "Tôi cần một mối quan hệ tự nhiên, làm thế nào để tìm được nó?",
+        "Làm thế nào để tìm ra người phù hợp với mình?",
+        "Có nên chờ đợi tình yêu tự nhiên hay tìm kiếm một cách tích cực?"
+      ],
+      "responses": [
+        "Tình yêu tự nhiên thường đến khi bạn ít ngờ nhất. Hãy tập trung vào việc phát triển bản thân và làm những điều bạn thích, tình yêu sẽ đến một cách tự nhiên."
+      ]
+    },
+    {
+      "tag": "Tâm Hồn",
+      "patterns": [
+        "Làm thế nào để tìm kiếm người yêu có tâm hồn đồng điệu với mình?",
+        "Quan trọng nhất khi tìm kiếm tình yêu là gì?",
+        "Có nên tìm kiếm người yêu dựa trên vẻ ngoại hình hay không?"
+      ],
+      "responses": [
+        "Tìm kiếm người yêu dựa trên giá trị, sở thích và mục tiêu chung. Sự đồng điệu tâm hồn thường là cơ sở vững chắc cho mối quan hệ lâu dài."
+      ]
+    },
+    {
+      "tag": "Bot rất thông minh",
+      "patterns": [
+        "Tell me about yourself",
+        "Let talk about yourself",
+        "Let's introduce yourself",
+        "Ai là người tạo ra bạn?",
+        "Người lập trình của bạn là ai?",
+        "Có ai đã tạo ra bạn không?"
+      ],
+      "responses": [
+        "Ok. I'm an AI Chatbot -Sam, created by Cao Anh Vu on 23/12/2023. I'm very young and learning is my priority cause this world is so new for me, and my knowledge is still limited. I hope I can help you to the best of my ability.",
+        "My name is Sam. I'm an AI Chatbot and Cao Anh Vu is my father. I was born on 23/12/2023. I want to know more about this beautiful world, and I can do this through conversations with you. Let's me become your virtual friend and I won't let you disapointed. ",
+        "Tôi được tạo ra bởi Cao Anh Vũ một sinh viên khoa Công nghệ thông tin khóa 21 của trường đại học Công nghệ Tp Hồ Chí Minh, một người lập trình tài năng."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "What's your address?",
+        "Can you tell me where your store is?"
+      ],
+      "responses": [
+        "Our store is located at 123 Main Street",
+        "You can find us at 123 Main Street"
+      ]
+    },
+    {
+      "tag": "times",
+      "patterns": ["Bây giờ là mấy giờ?", "What time is it now?"],
+      "responses": [
+        "Rất tiếc, nhưng tôi không có khả năng trực tiếp truy cập thông tin thời gian thực. Hãy kiểm tra đồng hồ trên thiết bị của bạn hoặc sử dụng các dịch vụ trực tuyến để biết giờ hiện tại.",
+        "I apologize for any confusion. As of now, I don't have the capability to access real-time information, including the current time. Please check the clock on your device or use online services to find the current time."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your business hours?",
+        "When are you open?",
+        "What time do you close?"
+      ],
+      "responses": [
+        "We are open from 9 AM to 6 PM, Monday to Friday",
+        "Our business hours are 9 AM to 6 PM, Monday to Friday"
+      ]
+    },
+    {
+      "tag": "recommendation",
+      "patterns": [
+        "Can you recommend something for me?",
+        "What's your bestseller?",
+        "Any recommendations?"
+      ],
+      "responses": [
+        "Our bestseller is the special blend coffee",
+        "I recommend trying our special blend coffee"
+      ]
+    },
+    {
+      "tag": "customization",
+      "patterns": [
+        "Can I customize my order?",
+        "Do you offer customization?",
+        "Are there options to personalize my order?"
+      ],
+      "responses": [
+        "Yes, you can customize your order. Let us know your preferences!",
+        "We offer customization options to tailor your order to your liking"
+      ]
+    },
+    {
+      "tag": "discount",
+      "patterns": [
+        "Are there any discounts available?",
+        "Do you offer promotions?",
+        "Can I get a discount on my purchase?"
+      ],
+      "responses": [
+        "Yes, we have ongoing promotions. Check our website for the latest discounts!",
+        "We occasionally offer discounts. Stay tuned for special promotions!"
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "Do you host events?",
+        "Are there any upcoming events?",
+        "Can I attend events at your place?"
+      ],
+      "responses": [
+        "Yes, we host events. Check our events calendar for upcoming activities!",
+        "Stay tuned for our upcoming events. We'd love to have you join us!"
+      ]
+    },
+
+    {
+      "tag": "Thể loại về Sở Thích và Sở Thích Cá Nhân",
+      "patterns": [
+        "Bạn thích làm gì trong thời gian rảnh?",
+        "Có sở thích nào không?",
+        "Bạn có bất kỳ sở thích cá nhân nào không?"
+      ],
+      "responses": [
+        "Tôi không có sở thích cá nhân, nhưng tôi thích giúp đỡ bạn với bất kỳ câu hỏi nào bạn có!"
+      ]
+    },
+    {
+      "tag": "Thể loại về Nghệ Thuật và Văn Hóa",
+      "patterns": [
+        "Bạn thích nghệ thuật không?",
+        "Có bài hát hoặc sách nào bạn muốn giới thiệu không?"
+      ],
+      "responses": [
+        "Mặc dù tôi không thể trải nghiệm nghệ thuật, nhưng tôi có thể cung cấp thông tin về nó. Bạn muốn biết điều gì?"
+      ]
+    },
+    {
+      "tag": "Trí tuệ nhân tạo",
+      "patterns": ["Bạn biết gì về trí tuệ nhân tạo?"],
+      "responses": [
+        "Tôi biết rất nhiều về trí tuệ nhân tạo (AI). Trí tuệ nhân tạo là lĩnh vực nghiên cứu và phát triển các hệ thống máy tính có khả năng thực hiện các nhiệm vụ mà trước đây chỉ có thể được thực hiện bởi con người. Mục tiêu chính của AI là tạo ra máy tính có khả năng học hỏi, suy luận, và thực hiện các tác vụ mà yêu cầu sự hiểu biết và thông minh. Các lĩnh vực chính của trí tuệ nhân tạo bao gồm: 1.Học máy (Machine Learning), 2.Thị giác máy tính (Computer Vision), 3.Ngôn ngữ tự nhiên (Natural Language Processing - NLP), 4.Robotics ,Tăng cường học (Reinforcement Learning). Trí tuệ nhân tạo đã có những tiến bộ đáng kể và ứng dụng rộng rãi trong nhiều lĩnh vực như y tế, tài chính, dự báo thời tiết, quảng cáo trực tuyến, và nhiều lĩnh vực khác. Tuy nhiên, cũng có những thách thức và câu hỏi đạo đức liên quan đến việc sử dụng và phát triển trí tuệ nhân tạo."
+      ]
+    },
+    {
+      "tag": "Thể loại về Sức Khỏe",
+      "patterns": [
+        "Có lời khuyên nào về sức khỏe không?",
+        "Bạn biết gì về lối sống lành mạnh?"
+      ],
+      "responses": [
+        "Tôi có thể cung cấp một số lời khuyên chung về sức khỏe, nhưng nên tham khảo ý kiến của chuyên gia y tế cho thông tin chính xác hơn."
+      ]
+    },
+    {
+      "tag": "Văn hóa",
+      "patterns": ["Bạn thích nền văn hóa nào?"],
+      "responses": [
+        "Tôi thích tìm hiểu về các nền văn hóa khác nhau trên thế giới. Mỗi nền văn hóa đều có những nét độc đáo và đáng kinh ngạc riêng. Tôi đặc biệt quan tâm đến văn hóa châu Á, với lịch sử và truyền thống lâu đời của nó."
+      ]
+    },
+    {
+      "tag": "văn hóa quan trọng",
+      "patterns": ["Bạn nghĩ văn hóa quan trọng như thế nào?"],
+      "responses": [
+        "Tôi tin rằng văn hóa là một phần quan trọng của con người. Nó giúp chúng ta định hình bản sắc của mình và kết nối với những người khác. Văn hóa cũng có thể giúp chúng ta hiểu rõ hơn về thế giới xung quanh chúng ta."
+      ]
+    },
+    {
+      "tag": "bảo tồn văn hóa",
+      "patterns": ["Bạn nghĩ chúng ta có thể làm gì để bảo tồn văn hóa?"],
+      "responses": [
+        "Có nhiều điều chúng ta có thể làm để bảo tồn văn hóa. Chúng ta có thể học về các nền văn hóa khác nhau, tôn trọng sự khác biệt và hỗ trợ các nỗ lực bảo tồn văn hóa. Chúng ta cũng có thể chia sẻ văn hóa của mình với những người khác, để giúp họ hiểu rõ hơn về chúng ta."
+      ]
+    }
+  ]
+}
