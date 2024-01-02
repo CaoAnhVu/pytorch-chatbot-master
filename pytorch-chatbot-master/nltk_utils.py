@@ -6,15 +6,15 @@ stemmer = PorterStemmer()
 
 def tokenize(sentence):
     """
-    split sentence into array of words/tokens
-    a token can be a word or punctuation character, or number
+    Chia câu thành mảng từ / mã thông báo
+    Mã thông báo có thể là một từ hoặc dấu câu, ký tự hoặc số
     """
     return nltk.word_tokenize(sentence)
 
 
 def stem(word):
     """
-    stemming = find the root form of the word
+    stemming = Tìm dạng gốc của từ
     examples:
     words = ["organize", "organizes", "organizing"]
     words = [stem(w) for w in words]
@@ -26,15 +26,15 @@ def stem(word):
 def bag_of_words(tokenized_sentence, words):
     """
     return bag of words array:
-    1 for each known word that exists in the sentence, 0 otherwise
+    1 cho mỗi từ đã biết tồn tại trong câu, 0 nếu không tồn tại
     example:
     sentence = ["hello", "how", "are", "you"]
     words = ["hi", "hello", "I", "you", "bye", "thank", "cool"]
     bog   = [  0 ,    1 ,    0 ,   1 ,    0 ,    0 ,      0]
     """
-    # stem each word
+    # Thân từng chữ
     sentence_words = [stem(word) for word in tokenized_sentence]
-    # initialize bag with 0 for each word
+    # Khởi tạo túi với 0 cho mỗi từ
     bag = np.zeros(len(words), dtype=np.float32)
     for idx, w in enumerate(words):
         if w in sentence_words: 
